@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# Ignore build artifacts for line-ending rules / keep them out of text conversion noise
+bin/ -text
+obj/ -text
